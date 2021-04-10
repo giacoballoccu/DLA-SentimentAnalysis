@@ -3,7 +3,7 @@ import pandas as pd
 
 import bz2
 
-trainfile = bz2.BZ2File('/content/drive/MyDrive/DLA/train.ft.txt.bz2','r')
+trainfile = bz2.BZ2File('./Dataset/train.ft.txt.bz2','r')
 lines = trainfile.readlines()
 
 
