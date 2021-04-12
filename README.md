@@ -7,7 +7,7 @@ git clone https://github.com/giacoballoccu/DLA-SentimentAnalysis.git
 ```
 1. With the same terminal enter the project folder and install the requirements using this commands. 
 ```
-cd DLA-SentimentAnalysis
+cd DLA-SentimentAnalysis/
 pip3 install -r requirements.txt
 ```
 2. Wait the installing of all requirements
