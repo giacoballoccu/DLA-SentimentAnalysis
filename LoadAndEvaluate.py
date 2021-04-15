@@ -52,7 +52,7 @@ print("Evaluating BDRNN GRU ...\n")
 start_time = time.time()
 modelBDGRU = keras.models.load_model('Models/BidirectionalGRU')
 modelBDGRU.evaluate(test_X_ANN, y_test_ANN, batch_size=64)
-print("Prediction time for BDRNN GRU: %s seconds - accuracy: " % (time.time() - start_time))
+print("Prediction time for BDRNN GRU: %s seconds\n" % (time.time() - start_time))
 
 print("Evaluating BDRNN LSTM ...\n")
 start_time = time.time()
